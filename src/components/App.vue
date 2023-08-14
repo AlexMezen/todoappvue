@@ -65,6 +65,27 @@ export default {
       this.dialogVisible = true;
     },
   },
+  mounted() {
+    const storedToDos = localStorage.getItem('toDos');
+    if (storedToDos) {
+      this.toDos = JSON.parse(storedToDos);
+    }
+  },
+
+  watch: {
+    toDos: {
+      handler(newToDos) {
+        localStorage.setItem('toDos', JSON.stringify(newToDos));
+      },
+      deep: true, 
+    },
+  },
+
+
+
+
+
+
 };
 </script>
 <style>
