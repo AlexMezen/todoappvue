@@ -10,19 +10,20 @@ This project is a ToDo application built using Vue 3, designed to help users man
 
 # Components
 
-```***App.vue*** - The main component that orchestrates the entire application. It renders the header, ToDo creation button, ToDo creation dialog, and the list of ToDo items.
+```
+App.vue - The main component that orchestrates the entire application. It renders the header, ToDo creation button, ToDo creation dialog, and the list of ToDo items.
 
-***ToDoButton.vue*** - A simple button component used to trigger actions like opening the ToDo creation dialog.
+ToDoButton.vue - A simple button component used to trigger actions like opening the ToDo creation dialog.
 
-***ToDoInput.vue*** - A reusable input component used for capturing text input, both for ToDo titles and descriptions.
+ToDoInput.vue - A reusable input component used for capturing text input, both for ToDo titles and descriptions.
 
-***DialogToDo.vue*** - A dialog component that wraps other components and is used to display forms or content as a modal dialog. It emits events to show or hide itself.
+DialogToDo.vue - A dialog component that wraps other components and is used to display forms or content as a modal dialog. It emits events to show or hide itself.
 
-***ToDoForm.vue*** - A form component for creating new ToDo items. It contains inputs for ToDo title and description and a button to create a new ToDo.
+ToDoForm.vue - A form component for creating new ToDo items. It contains inputs for ToDo title and description and a button to create a new ToDo.
 
-***ToDoList.vue*** - Displays the list of ToDo items. Uses transitions for smoother animations when items are added or removed.
+ToDoList.vue - Displays the list of ToDo items. Uses transitions for smoother animations when items are added or removed.
 
-***ToDoItem.vue*** - Represents an individual ToDo item. It can display the title, description, and a checkmark indicating whether the task is done. It also has buttons to edit, delete, or mark the task as done.
+ToDoItem.vue - Represents an individual ToDo item. It can display the title, description, and a checkmark indicating whether the task is done. It also has buttons to edit, delete, or mark the task as done.
 ```
 
 ## Functionality
